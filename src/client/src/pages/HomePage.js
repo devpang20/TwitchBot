@@ -16,7 +16,7 @@ const Home = () => {
 
   const [loading, setLoading] = useState(false); // Add loading state
 
-  const { login } = useContext(AuthContext);
+  const { login } = useContext(AuthContext); //
   const { logout } = useContext(AuthContext);
   const { currentUser } = useContext(AuthContext);
 
